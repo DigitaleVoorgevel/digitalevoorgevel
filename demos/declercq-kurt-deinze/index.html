@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Timmer- en schrijnwerken Declercq Kurt — Deinze</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --hout:#8a5a32; --hout-donker:#5c3a1e; --zaagsel:#f4ece1; --papier:#fbf8f3;
+    --inkt:#2b211a; --grijs:#6b5d52; --lijn:#e3d6c5; --accent:#c8873e;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--papier);color:var(--inkt);font:17px/1.6 "Source Sans 3",system-ui,sans-serif}
+  a{color:var(--hout-donker)}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+  .demo-band{background:var(--inkt);color:#f3e9dc;font-size:14px;text-align:center;padding:8px 16px}
+  header.top{position:sticky;top:0;z-index:5;background:rgba(251,248,243,.95);backdrop-filter:blur(6px);border-bottom:1px solid var(--lijn)}
+  header.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:64px}
+  .merk{font-family:Fraunces,Georgia,serif;font-weight:700;font-size:20px;line-height:1.15;text-decoration:none;color:var(--inkt)}
+  .merk small{display:block;font-family:"Source Sans 3",sans-serif;font-weight:600;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--hout)}
+  nav a{margin-left:20px;text-decoration:none;font-weight:600;color:var(--grijs)}
+  nav a:hover{color:var(--hout-donker)}
+  .knop{display:inline-block;background:var(--hout-donker);color:#fff;text-decoration:none;font-weight:600;padding:12px 22px;border-radius:6px;border:0;cursor:pointer;font-size:16px}
+  .knop.licht{background:transparent;color:var(--hout-donker);border:2px solid var(--hout-donker)}
+  .hero{position:relative;overflow:hidden;background:
+      repeating-linear-gradient(90deg,rgba(92,58,30,.07) 0 2px,transparent 2px 46px),
+      linear-gradient(160deg,#f4ece1 0%,#ead8bf 100%)}
+  .hero .wrap{display:grid;grid-template-columns:1.2fr 1fr;gap:40px;align-items:center;padding-top:72px;padding-bottom:72px}
+  .hero h1{font-family:Fraunces,Georgia,serif;font-size:clamp(34px,5vw,54px);line-height:1.08;margin:0 0 16px;color:var(--inkt)}
+  .hero p.lead{font-size:19px;color:var(--grijs);max-width:34ch;margin:0 0 28px}
+  .hero .acties{display:flex;flex-wrap:wrap;gap:12px}
+  .plank{aspect-ratio:4/3;border-radius:10px;position:relative;
+      background:
+        repeating-linear-gradient(0deg,transparent 0 58px,rgba(43,33,26,.18) 58px 61px),
+        repeating-linear-gradient(90deg,#b07a47 0 3px,#a8713f 3px 9px,#b98552 9px 13px,#a26c3b 13px 21px);
+      box-shadow:0 20px 40px rgba(92,58,30,.25)}
+  .plank::after{content:"Voorbeeldbeeld — hier komen foto's van uw eigen werk";position:absolute;left:12px;bottom:12px;background:rgba(43,33,26,.8);color:#fff;font-size:13px;padding:6px 10px;border-radius:4px}
+  section{padding:72px 0}
+  h2{font-family:Fraunces,Georgia,serif;font-size:clamp(28px,3.4vw,38px);margin:0 0 8px}
+  .onder{color:var(--grijs);margin:0 0 36px;max-width:60ch}
+  .diensten{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+  .dienst{background:#fff;border:1px solid var(--lijn);border-top:4px solid var(--accent);border-radius:8px;padding:24px}
+  .dienst h3{font-family:Fraunces,Georgia,serif;margin:0 0 8px;font-size:21px}
+  .dienst p{margin:0;color:var(--grijs)}
+  .dienst.in-te-vullen{border-top-color:var(--lijn);background:transparent;border-style:dashed}
+  .band{background:var(--hout-donker);color:#f6eee3}
+  .band .wrap{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;padding-top:44px;padding-bottom:44px}
+  .band strong{display:block;font-family:Fraunces,Georgia,serif;font-size:20px;margin-bottom:4px;color:#fff}
+  .contact{display:grid;grid-template-columns:1fr 1fr;gap:32px}
+  .kaart{border:1px solid var(--lijn);border-radius:8px;overflow:hidden;min-height:320px;background:#eee}
+  .kaart iframe{width:100%;height:100%;min-height:320px;border:0;display:block}
+  dl{margin:0 0 24px}
+  dt{font-weight:600;color:var(--hout);font-size:13px;letter-spacing:.08em;text-transform:uppercase;margin-top:16px}
+  dd{margin:2px 0 0;font-size:18px}
+  form{background:#fff;border:1px solid var(--lijn);border-radius:8px;padding:24px}
+  label{display:block;font-weight:600;margin:14px 0 6px}
+  input,textarea,select{width:100%;padding:11px 12px;border:1px solid #cdbfae;border-radius:6px;font:inherit;background:var(--papier)}
+  textarea{min-height:110px;resize:vertical}
+  .bevestiging{display:none;background:#eef6ea;border:1px solid #b7d4a8;padding:14px;border-radius:6px;margin-top:14px}
+  .uren td{padding:4px 18px 4px 0}
+  footer{background:var(--inkt);color:#cbbfb2;padding:32px 0;font-size:15px}
+  footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
+  .belknop{display:none}
+  @media (max-width:820px){
+    nav{display:none}
+    .hero .wrap,.contact{grid-template-columns:1fr}
+    .diensten,.band .wrap{grid-template-columns:1fr}
+    section{padding:52px 0}
+    .belknop{display:block;position:fixed;right:16px;bottom:16px;z-index:9;border-radius:40px;box-shadow:0 8px 20px rgba(0,0,0,.25)}
+  }
+</style>
+</head>
+<body>
+
+<div class="demo-band">Voorbeeldsite — conceptvoorstel. Teksten, foto's en kleuren zijn volledig aanpasbaar.</div>
+
+<header class="top">
+  <div class="wrap">
+    <a class="merk" href="#">Timmer- en schrijnwerken Declercq Kurt<small>Deinze</small></a>
+    <nav>
+      <a href="#diensten">Diensten</a>
+      <a href="#werkwijze">Werkwijze</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <h1>Timmer- en schrijnwerk uit Deinze</h1>
+        <p class="lead">Vakwerk in hout. Vraag vrijblijvend een offerte aan.</p>
+        <div class="acties">
+          <a class="knop" href="tel:+32476551536">Bel 0476 55 15 36</a>
+          <a class="knop licht" href="#contact">Offerte aanvragen</a>
+        </div>
+      </div>
+      <div class="plank" role="img" aria-label="Voorbeeldbeeld van houtstructuur"></div>
+    </div>
+  </section>
+
+  <section id="diensten">
+    <div class="wrap">
+      <h2>Diensten</h2>
+      <p class="onder">De activiteiten zoals ingeschreven bij de Kruispuntbank van Ondernemingen. Wij vullen dit samen met u aan.</p>
+      <div class="diensten">
+        <div class="dienst">
+          <h3>Timmer- en schrijnwerk</h3>
+          <p>Plaatsen van schrijnwerk in en rond de woning.</p>
+        </div>
+        <div class="dienst">
+          <h3>Houten vloer- en wandbekleding</h3>
+          <p>Leggen van houten vloeren en plaatsen van houten wandbekleding.</p>
+        </div>
+        <div class="dienst in-te-vullen">
+          <h3>Uw specialiteit</h3>
+          <p>Hier komt wat u zelf het liefst in de kijker zet, bijvoorbeeld een recent project.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="band" id="werkwijze">
+    <div class="wrap">
+      <div><strong>1. Aanvraag</strong>Bel of vul het formulier in met een korte beschrijving.</div>
+      <div><strong>2. Offerte</strong>U krijgt een duidelijke prijsopgave.</div>
+      <div><strong>3. Uitvoering</strong>Het werk wordt uitgevoerd zoals afgesproken.</div>
+    </div>
+  </div>
+
+  <section id="contact">
+    <div class="wrap">
+      <h2>Contact en offerte</h2>
+      <p class="onder">Beschrijf kort uw project. U krijgt zo snel mogelijk antwoord.</p>
+      <div class="contact">
+        <div>
+          <dl>
+            <dt>Adres</dt><dd>Poelstraat 7, 9800 Deinze</dd>
+            <dt>Telefoon</dt><dd><a href="tel:+32476551536">0476 55 15 36</a></dd>
+            <dt>E-mail</dt><dd><a href="mailto:kurtdeclercq@hotmail.com">kurtdeclercq@hotmail.com</a></dd>
+            <dt>Openingsuren</dt>
+            <dd style="color:var(--grijs);font-size:16px">Hier komen uw eigen openingsuren.</dd>
+          </dl>
+          <div class="kaart">
+            <iframe title="Kaart Poelstraat 7, Deinze" loading="lazy" src="https://maps.google.com/maps?q=Poelstraat%207%2C%209800%20Deinze&z=15&output=embed"></iframe>
+          </div>
+        </div>
+        <form id="offerte" onsubmit="return verstuur(event)">
+          <strong style="font-family:Fraunces,Georgia,serif;font-size:21px">Offerteaanvraag</strong>
+          <label for="naam">Naam</label><input id="naam" required>
+          <label for="tel">Telefoon of e-mail</label><input id="tel" required>
+          <label for="soort">Soort werk</label>
+          <select id="soort"><option>Schrijnwerk</option><option>Houten vloer of wandbekleding</option><option>Iets anders</option></select>
+          <label for="msg">Korte beschrijving</label><textarea id="msg" placeholder="Bijvoorbeeld: afmetingen, gewenste timing…"></textarea>
+          <p style="margin:18px 0 0"><button class="knop" type="submit">Aanvraag versturen</button></p>
+          <div class="bevestiging" id="ok">Bedankt! In de echte site komt deze aanvraag rechtstreeks in uw mailbox terecht.</div>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<a class="knop belknop" href="tel:+32476551536">Bel ons</a>
+
+<footer>
+  <div class="wrap">
+    <span>Timmer- en schrijnwerken Declercq Kurt BV · Poelstraat 7, 9800 Deinze · BTW BE 0756.790.535</span>
+    <span>Conceptvoorstel door Digitale Voorgevel</span>
+  </div>
+</footer>
+
+<script>
+function verstuur(e){e.preventDefault();document.getElementById('ok').style.display='block';return false;}
+</script>
+</body>
+</html>
