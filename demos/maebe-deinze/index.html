@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Maebe Tony — Deinze</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,700&display=swap" rel="stylesheet">
+<style>
+:root{--a:#1f4e5a;--a2:#c9963a;--bg:#fbfaf8;--soft:#e9f0ef;--ink:#1d2326;--grey:#5d666b;--line:#e2e0db}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.65 "Nunito Sans",system-ui,sans-serif}
+a{color:var(--a)}.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+.band0{background:var(--ink);color:#eef1f2;font-size:14px;text-align:center;padding:8px 16px}
+header{position:sticky;top:0;z-index:5;background:rgba(251,250,248,.94);backdrop-filter:blur(6px);border-bottom:1px solid var(--line)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:66px}
+.merk{text-decoration:none;color:var(--ink);display:flex;align-items:center;gap:12px}
+.logo{width:40px;height:40px;border-radius:8px;background:var(--a);color:#fff;display:grid;place-items:center;font-family:"DM Serif Display",Georgia,serif;font-size:20px;flex:none}
+.merk b{display:block;font-family:"DM Serif Display",Georgia,serif;font-weight:400;font-size:20px;line-height:1.1}
+.merk small{display:block;font-weight:700;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--grey)}
+nav a{margin-left:22px;text-decoration:none;font-weight:600;color:var(--grey)}nav a:hover{color:var(--a)}
+.knop{display:inline-block;background:var(--a);color:#fff;text-decoration:none;font-weight:700;padding:13px 22px;border-radius:999px;border:0;cursor:pointer;font-size:16px;font-family:inherit}
+.knop.licht{background:transparent;color:var(--a);box-shadow:inset 0 0 0 2px var(--a)}
+.hero{background:var(--soft);overflow:hidden}
+.hero .wrap{display:grid;grid-template-columns:1.15fr 1fr;gap:48px;align-items:center;padding-top:76px;padding-bottom:76px}
+.kicker{font-weight:700;font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--a2);margin:0 0 12px}
+.hero h1{font-family:"DM Serif Display",Georgia,serif;font-weight:400;font-size:clamp(36px,5.2vw,58px);line-height:1.05;margin:0 0 18px;color:var(--a)}
+.lead{font-size:19px;color:var(--grey);max-width:36ch;margin:0 0 28px}.acties{display:flex;flex-wrap:wrap;gap:12px}
+.beeld{position:relative;aspect-ratio:1/1;max-width:420px;justify-self:end;width:100%}
+.beeld .vel{position:absolute;border-radius:14px;background:#fff;box-shadow:0 18px 40px rgba(0,0,0,.10);border:1px solid var(--line)}
+.beeld .v1{inset:8% 18% 22% 4%;transform:rotate(-5deg)}
+.beeld .v2{inset:16% 4% 8% 20%;padding:28px}
+.beeld .v2 i{display:block;height:10px;border-radius:6px;background:var(--soft);margin-bottom:14px}
+.beeld .v2 i:nth-child(1){width:55%;background:var(--a)}.beeld .v2 i:nth-child(2){width:85%}.beeld .v2 i:nth-child(3){width:70%}.beeld .v2 i:nth-child(4){width:78%}
+.beeld .v2 i:nth-child(5){width:40%;background:var(--a2);margin-top:26px}
+.beeld .label{position:absolute;left:0;right:0;bottom:-6px;text-align:center;font-size:13px;color:var(--grey)}
+section{padding:76px 0}h2{font-family:"DM Serif Display",Georgia,serif;font-weight:400;font-size:clamp(30px,3.6vw,40px);line-height:1.12;margin:0 0 10px;color:var(--a)}
+.onder{color:var(--grey);margin:0 0 36px;max-width:60ch}
+.feiten{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.feit{padding:22px 20px;border-left:1px solid var(--line)}.feit:first-child{border-left:0}
+.feit b{display:block;font-family:"DM Serif Display",Georgia,serif;font-weight:400;font-size:24px;color:var(--a)}.feit span{color:var(--grey);font-size:15px}
+.diensten{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.dienst{background:#fff;border:1px solid var(--line);border-radius:12px;padding:26px;position:relative}
+.dienst::before{content:"";position:absolute;left:26px;top:0;width:36px;height:4px;background:var(--a2);border-radius:0 0 4px 4px}
+.dienst h3{font-size:20px;margin:6px 0 8px}.dienst p{margin:0;color:var(--grey)}
+.dienst.open{background:transparent;border-style:dashed}.dienst.open::before{background:var(--line)}
+.licht{background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.twee{display:grid;grid-template-columns:1fr 1.2fr;gap:48px;align-items:start}
+.lijst{list-style:none;margin:0;padding:0}.lijst li{padding:18px 0;border-bottom:1px solid var(--line)}.lijst li:first-child{padding-top:0}
+.lijst strong{display:block;font-size:18px}.lijst span{color:var(--grey)}
+.stappen{background:var(--a);color:#eef2f3}.stappen .wrap{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;padding-top:48px;padding-bottom:48px}
+.stappen strong{display:block;font-size:19px;color:#fff;margin-bottom:4px}
+.nr{display:inline-grid;place-items:center;width:30px;height:30px;border-radius:50%;background:var(--a2);color:#fff;font-weight:700;font-size:15px;margin-bottom:10px}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:36px}
+.kaart{border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#eee}
+.kaart iframe{width:100%;min-height:300px;border:0;display:block}
+dl{margin:0 0 24px}dt{font-weight:700;color:var(--a2);font-size:13px;letter-spacing:.08em;text-transform:uppercase;margin-top:16px}dd{margin:2px 0 0;font-size:18px}
+.uren{border-collapse:collapse}.uren td{padding:3px 22px 3px 0;font-size:16px}.zacht{color:var(--grey);font-size:15px}
+form{background:#fff;border:1px solid var(--line);border-radius:12px;padding:26px}
+form .titel{font-family:"DM Serif Display",Georgia,serif;font-size:24px;color:var(--a)}
+label{display:block;font-weight:700;margin:14px 0 6px;font-size:15px}
+input,textarea,select{width:100%;padding:12px;border:1px solid #cfd3d5;border-radius:8px;font:inherit;background:var(--bg)}
+textarea{min-height:110px;resize:vertical}
+.ok{display:none;background:#eef6ea;border:1px solid #b7d4a8;padding:14px;border-radius:8px;margin-top:14px}
+footer{background:var(--ink);color:#c9cfd2;padding:34px 0;font-size:15px}footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
+.bel{display:none}
+@media (max-width:820px){nav{display:none}.hero .wrap,.contact,.diensten,.stappen .wrap,.twee{grid-template-columns:1fr}
+.beeld{max-width:300px;justify-self:center}section{padding:54px 0}.feiten{grid-template-columns:1fr}.feit{border-left:0;border-top:1px solid var(--line)}.feit:first-child{border-top:0}
+.bel{display:block;position:fixed;right:16px;bottom:16px;z-index:9;box-shadow:0 8px 20px rgba(0,0,0,.25)}}
+</style>
+</head>
+<body>
+<div class="band0">Voorbeeldsite — conceptvoorstel. Teksten, foto's en kleuren zijn volledig aanpasbaar.</div>
+<header><div class="wrap">
+<a class="merk" href="#"><span class="logo">M</span><span><b>Maebe Tony</b><small>Verzekeringen · Deinze</small></span></a>
+<nav><a href="#diensten">Diensten</a><a href="#contact">Contact</a></nav>
+</div></header>
+<main>
+<section class="hero"><div class="wrap">
+<div>
+<p class="kicker">Verzekeringsmakelaar in Deinze</p>
+<h1>Uw verzekeringen, dichtbij geregeld</h1>
+<p class="lead">Verzekeringskantoor aan de Kortrijksesteenweg in Deinze. Kom langs tijdens de openingsuren of maak een afspraak.</p>
+<div class="acties"><a class="knop" href="tel:+3293862752">Bel 09 386 27 52</a><a class="knop licht" href="#contact">Vraag of afspraak</a></div>
+</div>
+<div class="beeld" role="img" aria-label="Voorbeeldbeeld"><div class="vel v1"></div><div class="vel v2"><i></i><i></i><i></i><i></i><i></i></div><span class="label">Voorbeeldbeeld — hier kan een foto van uw kantoor komen</span></div>
+</div></section>
+<div class="wrap"><div class="feiten"><div class="feit"><b>Sinds 1998</b><span>als vennootschap ingeschreven</span></div><div class="feit"><b>Kortrijksesteenweg 33</b><span>in Deinze</span></div><div class="feit"><b>5 dagen per week</b><span>open in de voormiddag</span></div></div></div>
+<section id="diensten"><div class="wrap">
+<h2>Waarvoor u bij ons terechtkunt</h2><p class="onder">Hieronder komt uw eigen aanbod. Wij vullen dit samen met u aan.</p>
+<div class="diensten"><div class="dienst"><h3>Verzekeringsadvies</h3><p>Als verzekeringsmakelaar helpen we u bij het kiezen en beheren van uw verzekeringen.</p></div><div class="dienst open"><h3>Uw verzekeringen</h3><p>Hier komen de verzekeringen die u aanbiedt, bijvoorbeeld voor particulieren en zelfstandigen.</p></div><div class="dienst open"><h3>Schadegevallen</h3><p>Hier kan uitleg komen over wat klanten doen bij schade en hoe u hen helpt.</p></div></div>
+</div></section>
+
+<div class="stappen"><div class="wrap"><div><span class="nr">1</span><strong>Contact</strong>Bel, mail of kom langs tijdens de openingsuren.</div><div><span class="nr">2</span><strong>Afspraak</strong>Plan een moment dat u past, op het kantoor in Deinze.</div><div><span class="nr">3</span><strong>Uw werkwijze</strong>Hier komt hoe u klanten verder helpt.</div></div></div>
+<section id="contact"><div class="wrap">
+<h2>Contact</h2><p class="onder">Stel uw vraag via het formulier of bel tijdens de openingsuren.</p>
+<div class="contact">
+<div>
+<dl><dt>Adres</dt><dd>Kortrijksesteenweg 33, 9800 Deinze</dd>
+<dt>Telefoon</dt><dd><a href="tel:+3293862752">09 386 27 52</a></dd><dt>E-mail</dt><dd><a href="mailto:Verzekeringen@tonymaebe.be">Verzekeringen@tonymaebe.be</a></dd>
+<dt>Openingsuren</dt><dd><table class="uren"><tr><td>Maandag</td><td>10.00–12.00 en 15.00–17.00</td></tr><tr><td>Dinsdag</td><td>10.00–12.00 en 15.00–17.00</td></tr><tr><td>Woensdag</td><td>10.00–12.00</td></tr><tr><td>Donderdag</td><td>10.00–12.00 en 15.00–17.00</td></tr><tr><td>Vrijdag</td><td>10.00–12.00</td></tr><tr><td>Zaterdag en zondag</td><td>gesloten</td></tr></table></dd></dl>
+<div class="kaart"><iframe title="Kaart Kortrijksesteenweg 33, 9800 Deinze" loading="lazy" src="https://maps.google.com/maps?q=Kortrijksesteenweg%2033%2C%209800%20Deinze&z=15&output=embed"></iframe></div>
+</div>
+<form onsubmit="return verstuur(event)">
+<span class="titel">Vraag of afspraak</span>
+<label for="naam">Naam</label><input id="naam" required>
+<label for="tel">Telefoon of e-mail</label><input id="tel" required>
+<label for="soort">Onderwerp</label><select id="soort"><option>Afspraak maken</option><option>Vraag over een verzekering</option><option>Iets anders</option></select>
+<label for="msg">Uw vraag</label><textarea id="msg" placeholder="Bijvoorbeeld: waarover gaat uw vraag, wanneer past een afspraak?"></textarea>
+<p style="margin:18px 0 0"><button class="knop" type="submit">Versturen</button></p>
+<div class="ok" id="ok">Bedankt! In de echte site komt dit bericht rechtstreeks in uw mailbox terecht.</div>
+</form>
+</div></div></section>
+</main>
+<a class="knop bel" href="tel:+3293862752">Bel ons</a>
+<footer><div class="wrap"><span>Maebe Tony BV · Kortrijksesteenweg 33, 9800 Deinze · Ondernemingsnummer 0464.430.456 · FSMA-nummer: in te vullen</span><span>Conceptvoorstel door Digitale Voorgevel</span></div></footer>
+<script>function verstuur(e){e.preventDefault();document.getElementById('ok').style.display='block';return false;}</script>
+</body>
+</html>
