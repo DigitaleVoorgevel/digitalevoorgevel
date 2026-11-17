@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Fotobank · Tiemwork</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700;900&family=Red+Hat+Text:wght@400;600&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#F6F4EF;color:#1C1B19;font:16px/1.55 "Red Hat Text",system-ui,sans-serif}
+.wrap{max-width:1200px;margin:0 auto;padding:0 20px}
+header{padding:48px 0 20px}
+h1{font:900 clamp(36px,6vw,64px)/1 "Red Hat Display",sans-serif;margin:0 0 12px;letter-spacing:-.02em}
+h1 em{font-style:normal;color:#C4572B}
+.intro{max-width:62ch;color:#55524C;margin:0 0 20px}
+.balk{position:sticky;top:0;z-index:5;background:rgba(246,244,239,.94);backdrop-filter:blur(8px);border-bottom:1px solid #E2DED5;padding:12px 0}
+.balk .wrap{display:flex;gap:12px;align-items:center}
+#chips{display:flex;gap:8px;overflow-x:auto;scrollbar-width:thin;flex:1;min-width:0;padding-bottom:2px}
+.chip{font:600 14px "Red Hat Text";padding:7px 13px;border-radius:999px;background:#fff;border:1px solid #DDD8CE;color:#1C1B19;text-decoration:none;white-space:nowrap}
+.chip:hover{border-color:#C4572B;color:#C4572B}
+.acties{display:flex;gap:8px;align-items:center;flex:none}
+.teller{font-size:14px;color:#55524C}
+button{font:700 14px "Red Hat Text";padding:9px 16px;border-radius:999px;border:0;background:#1C1B19;color:#fff;cursor:pointer}
+button.licht{background:#fff;color:#1C1B19;border:1px solid #DDD8CE}
+section{padding:36px 0 8px;scroll-margin-top:80px}
+h2{font:700 28px/1.1 "Red Hat Display";margin:0 0 4px}
+.sub{color:#55524C;font-size:14px;margin:0 0 16px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px}
+.kaart{background:#fff;border-radius:16px;overflow:hidden;border:2px solid transparent;transition:border-color .15s,opacity .15s}
+.kaart.weg{border-color:#C0392B;opacity:.45}
+.kaart .beeld{position:relative;aspect-ratio:4/3;background:#E9E5DC;cursor:zoom-in}
+.kaart img{width:100%;height:100%;object-fit:cover;display:block}
+.badge{position:absolute;left:10px;top:10px;background:#C4572B;color:#fff;font:700 12px "Red Hat Text";padding:3px 9px;border-radius:999px;letter-spacing:.04em}
+.badge.st{left:auto;right:10px;background:rgba(0,0,0,.6)}
+.info{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:9px 12px;font-size:13px;color:#55524C}
+.info a{color:#55524C}
+label.af{display:flex;align-items:center;gap:6px;font-weight:600;color:#1C1B19;cursor:pointer;white-space:nowrap}
+label.af input{width:18px;height:18px;accent-color:#C0392B}
+.groot{position:fixed;inset:0;background:rgba(0,0,0,.88);display:none;align-items:center;justify-content:center;z-index:20;padding:20px;cursor:zoom-out}
+.groot img{max-width:100%;max-height:100%;border-radius:8px}
+.melding{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:#1C1B19;color:#fff;padding:12px 18px;border-radius:12px;font-weight:600;display:none;z-index:30}
+footer{padding:40px 0 60px;color:#55524C;font-size:14px}
+@media (max-width:640px){.balk .wrap{flex-direction:column;align-items:stretch;gap:8px}#chips{flex:none}.acties{justify-content:space-between}section{scroll-margin-top:120px}.grid{grid-template-columns:1fr 1fr;gap:10px}.info{flex-direction:column;align-items:flex-start}}
+</style>
+</head>
+<body>
+<header class="wrap">
+<h1>Fotobank <em>Tiemwork</em></h1>
+<p class="intro">Per sector de foto's voor de demosites. Elke foto is met de hand gekozen: bij een Belgische zaak passend, scherp, zonder herkenbare gezichten en zonder merknamen. <b>Hero</b> betekent geschikt als grote foto bovenaan (liggend, met ruimte voor tekst). Vink aan wat weg mag en druk op "Kopieer afgekeurde lijst"; plak die lijst dan in de chat.</p>
+</header>
+<div class="balk"><div class="wrap" id="nav"><div id="chips"></div><div class="acties"><span class="teller" id="teller">0 afgekeurd</span><button class="licht" onclick="wis()">Wis</button><button onclick="kopieer()">Kopieer afgekeurde lijst</button></div></div></div>
+<main class="wrap" id="lijst"></main>
+<footer class="wrap">Bron: Pexels. Gratis te gebruiken, ook commercieel, zonder bronvermelding. Gegevens voor scripts en Grok: <a href="fotobank.json">fotobank.json</a>.</footer>
+<div class="groot" id="groot" onclick="this.style.display='none'"><img id="grootimg" alt=""></div>
+<div class="melding" id="melding"></div>
+<script>
+const KEY="fotobank-afgekeurd";let weg=new Set();
+try{weg=new Set(JSON.parse(localStorage.getItem(KEY)||"[]"))}catch(e){}
+function bewaar(){try{localStorage.setItem(KEY,JSON.stringify([...weg]))}catch(e){}document.getElementById("teller").textContent=weg.size+" afgekeurd"}
+function meld(t){const m=document.getElementById("melding");m.textContent=t;m.style.display="block";setTimeout(()=>m.style.display="none",2200)}
+function kopieer(){const t=weg.size?"Afgekeurd in de fotobank:\n"+[...weg].sort().join("\n"):"Niets afgekeurd in de fotobank.";
+ if(navigator.clipboard)navigator.clipboard.writeText(t).then(()=>meld("Gekopieerd: plak het in de chat"),()=>prompt("Kopieer deze tekst:",t));else prompt("Kopieer deze tekst:",t)}
+function wis(){weg.clear();document.querySelectorAll(".kaart").forEach(k=>{k.classList.remove("weg");k.querySelector("input").checked=false});bewaar()}
+fetch("fotobank.json").then(r=>r.json()).then(d=>{
+ const chips=document.getElementById("chips"),lijst=document.getElementById("lijst");
+ Object.entries(d.sectoren).forEach(([s,v])=>{
+  const a=document.createElement("a");a.className="chip";a.href="#"+s;a.textContent=v.naam;chips.appendChild(a);
+  const sec=document.createElement("section");sec.id=s;
+  const nh=v.fotos.filter(f=>f.hero).length;
+  sec.innerHTML=`<h2>${v.naam}</h2><p class="sub">${v.fotos.length} foto's, waarvan ${nh} hero · map <code>fotobank/${s}/</code></p><div class="grid"></div>`;
+  const g=sec.querySelector(".grid");
+  v.fotos.forEach(f=>{const k=document.createElement("div");k.className="kaart"+(weg.has(f.bestand)?" weg":"");
+   k.innerHTML=`<div class="beeld"><img src="${f.bestand}" alt="" loading="lazy">${f.hero?'<span class="badge">HERO</span>':''}${f.ligging==="staand"?'<span class="badge st">staand</span>':''}</div>
+   <div class="info"><span>${f.bestand.split("/")[1]} · <a href="${f.bron}" target="_blank" rel="noopener">Pexels</a></span><label class="af"><input type="checkbox" ${weg.has(f.bestand)?"checked":""}> Afkeuren</label></div>`;
+   k.querySelector(".beeld").onclick=()=>{document.getElementById("grootimg").src=f.bestand;document.getElementById("groot").style.display="flex"};
+   k.querySelector("input").onchange=e=>{e.target.checked?weg.add(f.bestand):weg.delete(f.bestand);k.classList.toggle("weg",e.target.checked);bewaar()};
+   g.appendChild(k)});
+  lijst.appendChild(sec)});
+ bewaar()});
+</script>
+</body>
+</html>

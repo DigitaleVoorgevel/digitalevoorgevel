@@ -1,0 +1,1778 @@
+{
+ "uitleg": "Fotobank Tiemwork. Bron: Pexels (gratis, ook commercieel, geen bronvermelding nodig). hero=true: geschikt als grote foto bovenaan (liggend, ruimte voor tekst). Geen herkenbare gezichten.",
+ "sectoren": {
+  "friet": {
+   "naam": "Frituur",
+   "fotos": [
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/friet/friet-hero-01.jpg",
+     "bestand": "friet/friet-hero-01.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1500,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/115740/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/friet/friet-hero-02.jpg",
+     "bestand": "friet/friet-hero-02.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1326,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/3926126/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/friet/friet-hero-03.jpg",
+     "bestand": "friet/friet-hero-03.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1336,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/32611524/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/friet/friet-hero-04.jpg",
+     "bestand": "friet/friet-hero-04.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1333,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/39059532/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/friet/friet-01.jpg",
+     "bestand": "friet/friet-01.jpg",
+     "hero": false,
+     "breedte": 1400,
+     "hoogte": 934,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/8272622/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/friet/friet-02.jpg",
+     "bestand": "friet/friet-02.jpg",
+     "hero": false,
+     "breedte": 1400,
+     "hoogte": 1050,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/29150162/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/friet/friet-03.jpg",
+     "bestand": "friet/friet-03.jpg",
+     "hero": false,
+     "breedte": 1059,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/40646660/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/friet/friet-04.jpg",
+     "bestand": "friet/friet-04.jpg",
+     "hero": false,
+     "breedte": 933,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/17354196/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/friet/friet-05.jpg",
+     "bestand": "friet/friet-05.jpg",
+     "hero": false,
+     "breedte": 933,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/8879369/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/friet/friet-06.jpg",
+     "bestand": "friet/friet-06.jpg",
+     "hero": false,
+     "breedte": 933,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/38441696/"
+    }
+   ]
+  },
+  "bakker": {
+   "naam": "Bakker",
+   "fotos": [
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/bakker/bakker-hero-01.jpg",
+     "bestand": "bakker/bakker-hero-01.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1333,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/8633662/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/bakker/bakker-hero-02.jpg",
+     "bestand": "bakker/bakker-hero-02.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1500,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/14520462/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/bakker/bakker-hero-03.jpg",
+     "bestand": "bakker/bakker-hero-03.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1439,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/35993723/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/bakker/bakker-hero-04.jpg",
+     "bestand": "bakker/bakker-hero-04.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1125,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/2128535/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/bakker/bakker-01.jpg",
+     "bestand": "bakker/bakker-01.jpg",
+     "hero": false,
+     "breedte": 1400,
+     "hoogte": 1000,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/10202985/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/bakker/bakker-02.jpg",
+     "bestand": "bakker/bakker-02.jpg",
+     "hero": false,
+     "breedte": 1400,
+     "hoogte": 933,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/1383908/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/bakker/bakker-03.jpg",
+     "bestand": "bakker/bakker-03.jpg",
+     "hero": false,
+     "breedte": 1050,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/3789032/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/bakker/bakker-04.jpg",
+     "bestand": "bakker/bakker-04.jpg",
+     "hero": false,
+     "breedte": 999,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/11381605/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/bakker/bakker-05.jpg",
+     "bestand": "bakker/bakker-05.jpg",
+     "hero": false,
+     "breedte": 933,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/29388479/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/bakker/bakker-06.jpg",
+     "bestand": "bakker/bakker-06.jpg",
+     "hero": false,
+     "breedte": 966,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/15009979/"
+    }
+   ]
+  },
+  "traiteur": {
+   "naam": "Traiteur",
+   "fotos": [
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/traiteur/traiteur-hero-01.jpg",
+     "bestand": "traiteur/traiteur-hero-01.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1333,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/29086309/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/traiteur/traiteur-hero-02.jpg",
+     "bestand": "traiteur/traiteur-hero-02.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1335,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/34307855/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/traiteur/traiteur-hero-03.jpg",
+     "bestand": "traiteur/traiteur-hero-03.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1333,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/18281681/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/traiteur/traiteur-hero-04.jpg",
+     "bestand": "traiteur/traiteur-hero-04.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1335,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/34321369/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/traiteur/traiteur-01.jpg",
+     "bestand": "traiteur/traiteur-01.jpg",
+     "hero": false,
+     "breedte": 1400,
+     "hoogte": 933,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/2337843/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/traiteur/traiteur-02.jpg",
+     "bestand": "traiteur/traiteur-02.jpg",
+     "hero": false,
+     "breedte": 933,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/34118827/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/traiteur/traiteur-03.jpg",
+     "bestand": "traiteur/traiteur-03.jpg",
+     "hero": false,
+     "breedte": 933,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/31970811/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/traiteur/traiteur-04.jpg",
+     "bestand": "traiteur/traiteur-04.jpg",
+     "hero": false,
+     "breedte": 933,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/10819657/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/traiteur/traiteur-05.jpg",
+     "bestand": "traiteur/traiteur-05.jpg",
+     "hero": false,
+     "breedte": 933,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/17294750/"
+    }
+   ]
+  },
+  "deli": {
+   "naam": "Delicatessen",
+   "fotos": [
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/deli/deli-hero-01.jpg",
+     "bestand": "deli/deli-hero-01.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1333,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/15247977/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/deli/deli-hero-02.jpg",
+     "bestand": "deli/deli-hero-02.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1333,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/8250426/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/deli/deli-hero-03.jpg",
+     "bestand": "deli/deli-hero-03.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1285,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/37044083/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/deli/deli-hero-04.jpg",
+     "bestand": "deli/deli-hero-04.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1331,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/19585048/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/deli/deli-01.jpg",
+     "bestand": "deli/deli-01.jpg",
+     "hero": false,
+     "breedte": 1400,
+     "hoogte": 933,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/28992220/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/deli/deli-02.jpg",
+     "bestand": "deli/deli-02.jpg",
+     "hero": false,
+     "breedte": 933,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/12455049/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/deli/deli-03.jpg",
+     "bestand": "deli/deli-03.jpg",
+     "hero": false,
+     "breedte": 933,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/27355656/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/deli/deli-04.jpg",
+     "bestand": "deli/deli-04.jpg",
+     "hero": false,
+     "breedte": 933,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/29570761/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/deli/deli-05.jpg",
+     "bestand": "deli/deli-05.jpg",
+     "hero": false,
+     "breedte": 933,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/31970825/"
+    }
+   ]
+  },
+  "slager": {
+   "naam": "Slager",
+   "fotos": [
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/slager/slager-hero-01.jpg",
+     "bestand": "slager/slager-hero-01.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1333,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/37663507/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/slager/slager-hero-02.jpg",
+     "bestand": "slager/slager-hero-02.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1333,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/10201880/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/slager/slager-hero-03.jpg",
+     "bestand": "slager/slager-hero-03.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1331,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/27603410/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/slager/slager-hero-04.jpg",
+     "bestand": "slager/slager-hero-04.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1333,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/5313867/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/slager/slager-hero-05.jpg",
+     "bestand": "slager/slager-hero-05.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1333,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/4661503/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/slager/slager-01.jpg",
+     "bestand": "slager/slager-01.jpg",
+     "hero": false,
+     "breedte": 1120,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/40429442/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/slager/slager-02.jpg",
+     "bestand": "slager/slager-02.jpg",
+     "hero": false,
+     "breedte": 1049,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/34003516/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/slager/slager-03.jpg",
+     "bestand": "slager/slager-03.jpg",
+     "hero": false,
+     "breedte": 1049,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/34003521/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/slager/slager-04.jpg",
+     "bestand": "slager/slager-04.jpg",
+     "hero": false,
+     "breedte": 1050,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/40429455/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/slager/slager-05.jpg",
+     "bestand": "slager/slager-05.jpg",
+     "hero": false,
+     "breedte": 1400,
+     "hoogte": 933,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/25884967/"
+    }
+   ]
+  },
+  "kapper": {
+   "naam": "Kapper",
+   "fotos": [
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/kapper/kapper-hero-01.jpg",
+     "bestand": "kapper/kapper-hero-01.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1111,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/27165067/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/kapper/kapper-hero-02.jpg",
+     "bestand": "kapper/kapper-hero-02.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1335,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/7195796/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/kapper/kapper-hero-03.jpg",
+     "bestand": "kapper/kapper-hero-03.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1305,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/7750124/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/kapper/kapper-hero-04.jpg",
+     "bestand": "kapper/kapper-hero-04.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1333,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/3992874/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/kapper/kapper-hero-05.jpg",
+     "bestand": "kapper/kapper-hero-05.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1333,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/2799609/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/kapper/kapper-hero-06.jpg",
+     "bestand": "kapper/kapper-hero-06.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1333,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/8468129/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/kapper/kapper-01.jpg",
+     "bestand": "kapper/kapper-01.jpg",
+     "hero": false,
+     "breedte": 933,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/7823407/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/kapper/kapper-02.jpg",
+     "bestand": "kapper/kapper-02.jpg",
+     "hero": false,
+     "breedte": 990,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/7750144/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/kapper/kapper-03.jpg",
+     "bestand": "kapper/kapper-03.jpg",
+     "hero": false,
+     "breedte": 934,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/7750122/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/kapper/kapper-04.jpg",
+     "bestand": "kapper/kapper-04.jpg",
+     "hero": false,
+     "breedte": 1400,
+     "hoogte": 933,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/28994396/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/kapper/kapper-05.jpg",
+     "bestand": "kapper/kapper-05.jpg",
+     "hero": false,
+     "breedte": 1400,
+     "hoogte": 935,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/8834034/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/kapper/kapper-06.jpg",
+     "bestand": "kapper/kapper-06.jpg",
+     "hero": false,
+     "breedte": 933,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/11169554/"
+    }
+   ]
+  },
+  "barbier": {
+   "naam": "Barbier",
+   "fotos": [
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/barbier/barbier-hero-01.jpg",
+     "bestand": "barbier/barbier-hero-01.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1333,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/1319459/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/barbier/barbier-hero-02.jpg",
+     "bestand": "barbier/barbier-hero-02.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1333,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/33448216/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/barbier/barbier-hero-03.jpg",
+     "bestand": "barbier/barbier-hero-03.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1333,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/7697712/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/barbier/barbier-hero-04.jpg",
+     "bestand": "barbier/barbier-hero-04.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1333,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/7697208/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/barbier/barbier-hero-05.jpg",
+     "bestand": "barbier/barbier-hero-05.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1333,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/36361319/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/barbier/barbier-01.jpg",
+     "bestand": "barbier/barbier-01.jpg",
+     "hero": false,
+     "breedte": 933,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/4625626/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/barbier/barbier-02.jpg",
+     "bestand": "barbier/barbier-02.jpg",
+     "hero": false,
+     "breedte": 788,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/16474397/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/barbier/barbier-03.jpg",
+     "bestand": "barbier/barbier-03.jpg",
+     "hero": false,
+     "breedte": 933,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/4627333/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/barbier/barbier-04.jpg",
+     "bestand": "barbier/barbier-04.jpg",
+     "hero": false,
+     "breedte": 1050,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/1895701/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/barbier/barbier-05.jpg",
+     "bestand": "barbier/barbier-05.jpg",
+     "hero": false,
+     "breedte": 1046,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/7465903/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/barbier/barbier-06.jpg",
+     "bestand": "barbier/barbier-06.jpg",
+     "hero": false,
+     "breedte": 933,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/10317439/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/barbier/barbier-07.jpg",
+     "bestand": "barbier/barbier-07.jpg",
+     "hero": false,
+     "breedte": 933,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/4730937/"
+    }
+   ]
+  },
+  "choco": {
+   "naam": "Chocolatier",
+   "fotos": [
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/choco/choco-hero-01.jpg",
+     "bestand": "choco/choco-hero-01.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1333,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/9159719/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/choco/choco-hero-02.jpg",
+     "bestand": "choco/choco-hero-02.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1333,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/8627518/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/choco/choco-hero-03.jpg",
+     "bestand": "choco/choco-hero-03.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1333,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/27850066/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/choco/choco-hero-04.jpg",
+     "bestand": "choco/choco-hero-04.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1343,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/27850071/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/choco/choco-01.jpg",
+     "bestand": "choco/choco-01.jpg",
+     "hero": false,
+     "breedte": 1400,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/6487798/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/choco/choco-02.jpg",
+     "bestand": "choco/choco-02.jpg",
+     "hero": false,
+     "breedte": 1050,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/38444667/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/choco/choco-03.jpg",
+     "bestand": "choco/choco-03.jpg",
+     "hero": false,
+     "breedte": 817,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/31488472/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/choco/choco-04.jpg",
+     "bestand": "choco/choco-04.jpg",
+     "hero": false,
+     "breedte": 934,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/37976917/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/choco/choco-05.jpg",
+     "bestand": "choco/choco-05.jpg",
+     "hero": false,
+     "breedte": 1400,
+     "hoogte": 931,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/15550425/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/choco/choco-06.jpg",
+     "bestand": "choco/choco-06.jpg",
+     "hero": false,
+     "breedte": 931,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/20200298/"
+    }
+   ]
+  },
+  "schoon": {
+   "naam": "Schoonheid en massage",
+   "fotos": [
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/schoon/schoon-hero-01.jpg",
+     "bestand": "schoon/schoon-hero-01.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1333,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/38407788/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/schoon/schoon-hero-02.jpg",
+     "bestand": "schoon/schoon-hero-02.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1333,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/6628601/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/schoon/schoon-hero-03.jpg",
+     "bestand": "schoon/schoon-hero-03.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1349,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/13068377/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/schoon/schoon-hero-04.jpg",
+     "bestand": "schoon/schoon-hero-04.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1333,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/9146381/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/schoon/schoon-hero-05.jpg",
+     "bestand": "schoon/schoon-hero-05.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1333,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/7691112/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/schoon/schoon-hero-06.jpg",
+     "bestand": "schoon/schoon-hero-06.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1333,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/5629136/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/schoon/schoon-hero-07.jpg",
+     "bestand": "schoon/schoon-hero-07.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1333,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/6724512/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/schoon/schoon-01.jpg",
+     "bestand": "schoon/schoon-01.jpg",
+     "hero": false,
+     "breedte": 933,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/19641818/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/schoon/schoon-02.jpg",
+     "bestand": "schoon/schoon-02.jpg",
+     "hero": false,
+     "breedte": 933,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/19641816/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/schoon/schoon-03.jpg",
+     "bestand": "schoon/schoon-03.jpg",
+     "hero": false,
+     "breedte": 933,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/19641817/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/schoon/schoon-04.jpg",
+     "bestand": "schoon/schoon-04.jpg",
+     "hero": false,
+     "breedte": 933,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/7795767/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/schoon/schoon-05.jpg",
+     "bestand": "schoon/schoon-05.jpg",
+     "hero": false,
+     "breedte": 933,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/4202325/"
+    }
+   ]
+  },
+  "voet": {
+   "naam": "Pedicure",
+   "fotos": [
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/voet/voet-hero-01.jpg",
+     "bestand": "voet/voet-hero-01.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1333,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/34930127/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/voet/voet-hero-02.jpg",
+     "bestand": "voet/voet-hero-02.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1333,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/7755554/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/voet/voet-hero-03.jpg",
+     "bestand": "voet/voet-hero-03.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1335,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/6663599/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/voet/voet-01.jpg",
+     "bestand": "voet/voet-01.jpg",
+     "hero": false,
+     "breedte": 933,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/17056222/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/voet/voet-02.jpg",
+     "bestand": "voet/voet-02.jpg",
+     "hero": false,
+     "breedte": 933,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/17056219/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/voet/voet-03.jpg",
+     "bestand": "voet/voet-03.jpg",
+     "hero": false,
+     "breedte": 933,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/17056221/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/voet/voet-04.jpg",
+     "bestand": "voet/voet-04.jpg",
+     "hero": false,
+     "breedte": 787,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/18441298/"
+    }
+   ]
+  },
+  "hond": {
+   "naam": "Hondentrimsalon",
+   "fotos": [
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/hond/hond-hero-01.jpg",
+     "bestand": "hond/hond-hero-01.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1335,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/19145879/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/hond/hond-hero-02.jpg",
+     "bestand": "hond/hond-hero-02.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1333,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/6816850/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/hond/hond-hero-03.jpg",
+     "bestand": "hond/hond-hero-03.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1335,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/19145874/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/hond/hond-hero-04.jpg",
+     "bestand": "hond/hond-hero-04.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1335,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/19145894/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/hond/hond-01.jpg",
+     "bestand": "hond/hond-01.jpg",
+     "hero": false,
+     "breedte": 935,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/21952862/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/hond/hond-02.jpg",
+     "bestand": "hond/hond-02.jpg",
+     "hero": false,
+     "breedte": 933,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/6131161/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/hond/hond-03.jpg",
+     "bestand": "hond/hond-03.jpg",
+     "hero": false,
+     "breedte": 933,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/8498861/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/hond/hond-04.jpg",
+     "bestand": "hond/hond-04.jpg",
+     "hero": false,
+     "breedte": 933,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/8498858/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/hond/hond-05.jpg",
+     "bestand": "hond/hond-05.jpg",
+     "hero": false,
+     "breedte": 1120,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/23542061/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/hond/hond-06.jpg",
+     "bestand": "hond/hond-06.jpg",
+     "hero": false,
+     "breedte": 934,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/19145877/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/hond/hond-07.jpg",
+     "bestand": "hond/hond-07.jpg",
+     "hero": false,
+     "breedte": 1400,
+     "hoogte": 934,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/3299907/"
+    }
+   ]
+  },
+  "naai": {
+   "naam": "Naaiatelier",
+   "fotos": [
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/naai/naai-hero-01.jpg",
+     "bestand": "naai/naai-hero-01.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1333,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/36883230/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/naai/naai-hero-02.jpg",
+     "bestand": "naai/naai-hero-02.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1333,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/15125918/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/naai/naai-hero-03.jpg",
+     "bestand": "naai/naai-hero-03.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1343,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/37232390/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/naai/naai-hero-04.jpg",
+     "bestand": "naai/naai-hero-04.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1343,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/37232407/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/naai/naai-01.jpg",
+     "bestand": "naai/naai-01.jpg",
+     "hero": false,
+     "breedte": 1400,
+     "hoogte": 933,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/34908665/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/naai/naai-02.jpg",
+     "bestand": "naai/naai-02.jpg",
+     "hero": false,
+     "breedte": 1400,
+     "hoogte": 934,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/6461151/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/naai/naai-03.jpg",
+     "bestand": "naai/naai-03.jpg",
+     "hero": false,
+     "breedte": 1400,
+     "hoogte": 933,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/3984840/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/naai/naai-04.jpg",
+     "bestand": "naai/naai-04.jpg",
+     "hero": false,
+     "breedte": 1400,
+     "hoogte": 933,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/29222239/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/naai/naai-05.jpg",
+     "bestand": "naai/naai-05.jpg",
+     "hero": false,
+     "breedte": 933,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/27872045/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/naai/naai-06.jpg",
+     "bestand": "naai/naai-06.jpg",
+     "hero": false,
+     "breedte": 933,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/3763234/"
+    }
+   ]
+  },
+  "schrijnwerk": {
+   "naam": "Schrijnwerk",
+   "fotos": [
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/schrijnwerk/schrijnwerk-hero-01.jpg",
+     "bestand": "schrijnwerk/schrijnwerk-hero-01.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1333,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/7109995/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/schrijnwerk/schrijnwerk-hero-02.jpg",
+     "bestand": "schrijnwerk/schrijnwerk-hero-02.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1333,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/5974022/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/schrijnwerk/schrijnwerk-hero-03.jpg",
+     "bestand": "schrijnwerk/schrijnwerk-hero-03.jpg",
+     "hero": true,
+     "breedte": 1920,
+     "hoogte": 1080,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/374049/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/schrijnwerk/schrijnwerk-hero-04.jpg",
+     "bestand": "schrijnwerk/schrijnwerk-hero-04.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1333,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/5974301/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/schrijnwerk/schrijnwerk-01.jpg",
+     "bestand": "schrijnwerk/schrijnwerk-01.jpg",
+     "hero": false,
+     "breedte": 1400,
+     "hoogte": 933,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/5974285/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/schrijnwerk/schrijnwerk-02.jpg",
+     "bestand": "schrijnwerk/schrijnwerk-02.jpg",
+     "hero": false,
+     "breedte": 1400,
+     "hoogte": 967,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/5484718/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/schrijnwerk/schrijnwerk-03.jpg",
+     "bestand": "schrijnwerk/schrijnwerk-03.jpg",
+     "hero": false,
+     "breedte": 1315,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/5059649/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/schrijnwerk/schrijnwerk-04.jpg",
+     "bestand": "schrijnwerk/schrijnwerk-04.jpg",
+     "hero": false,
+     "breedte": 933,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/6790088/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/schrijnwerk/schrijnwerk-05.jpg",
+     "bestand": "schrijnwerk/schrijnwerk-05.jpg",
+     "hero": false,
+     "breedte": 1069,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/5973892/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/schrijnwerk/schrijnwerk-06.jpg",
+     "bestand": "schrijnwerk/schrijnwerk-06.jpg",
+     "hero": false,
+     "breedte": 1400,
+     "hoogte": 933,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/13005858/"
+    }
+   ]
+  },
+  "schilder": {
+   "naam": "Schilder",
+   "fotos": [
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/schilder/schilder-hero-01.jpg",
+     "bestand": "schilder/schilder-hero-01.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1333,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/5798972/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/schilder/schilder-hero-02.jpg",
+     "bestand": "schilder/schilder-hero-02.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1333,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/5583113/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/schilder/schilder-hero-03.jpg",
+     "bestand": "schilder/schilder-hero-03.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1333,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/5583059/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/schilder/schilder-hero-04.jpg",
+     "bestand": "schilder/schilder-hero-04.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1333,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/5583126/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/schilder/schilder-hero-05.jpg",
+     "bestand": "schilder/schilder-hero-05.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1333,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/1669754/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/schilder/schilder-01.jpg",
+     "bestand": "schilder/schilder-01.jpg",
+     "hero": false,
+     "breedte": 933,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/7217921/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/schilder/schilder-02.jpg",
+     "bestand": "schilder/schilder-02.jpg",
+     "hero": false,
+     "breedte": 933,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/6474455/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/schilder/schilder-03.jpg",
+     "bestand": "schilder/schilder-03.jpg",
+     "hero": false,
+     "breedte": 935,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/5691610/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/schilder/schilder-04.jpg",
+     "bestand": "schilder/schilder-04.jpg",
+     "hero": false,
+     "breedte": 933,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/5583122/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/schilder/schilder-05.jpg",
+     "bestand": "schilder/schilder-05.jpg",
+     "hero": false,
+     "breedte": 933,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/10533141/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/schilder/schilder-06.jpg",
+     "bestand": "schilder/schilder-06.jpg",
+     "hero": false,
+     "breedte": 933,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/5583124/"
+    }
+   ]
+  },
+  "pleister": {
+   "naam": "Pleisterwerk",
+   "fotos": [
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/pleister/pleister-hero-01.jpg",
+     "bestand": "pleister/pleister-hero-01.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1125,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/38561969/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/pleister/pleister-hero-02.jpg",
+     "bestand": "pleister/pleister-hero-02.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1333,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/7941435/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/pleister/pleister-hero-03.jpg",
+     "bestand": "pleister/pleister-hero-03.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1335,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/5691482/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/pleister/pleister-hero-04.jpg",
+     "bestand": "pleister/pleister-hero-04.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1333,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/5493658/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/pleister/pleister-01.jpg",
+     "bestand": "pleister/pleister-01.jpg",
+     "hero": false,
+     "breedte": 935,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/5691622/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/pleister/pleister-02.jpg",
+     "bestand": "pleister/pleister-02.jpg",
+     "hero": false,
+     "breedte": 935,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/5691672/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/pleister/pleister-03.jpg",
+     "bestand": "pleister/pleister-03.jpg",
+     "hero": false,
+     "breedte": 935,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/5691606/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/pleister/pleister-04.jpg",
+     "bestand": "pleister/pleister-04.jpg",
+     "hero": false,
+     "breedte": 1050,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/12761791/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/pleister/pleister-05.jpg",
+     "bestand": "pleister/pleister-05.jpg",
+     "hero": false,
+     "breedte": 935,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/5691603/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/pleister/pleister-06.jpg",
+     "bestand": "pleister/pleister-06.jpg",
+     "hero": false,
+     "breedte": 935,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/5691637/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/pleister/pleister-07.jpg",
+     "bestand": "pleister/pleister-07.jpg",
+     "hero": false,
+     "breedte": 933,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/5493659/"
+    }
+   ]
+  },
+  "cafe": {
+   "naam": "Café",
+   "fotos": [
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/cafe/cafe-hero-01.jpg",
+     "bestand": "cafe/cafe-hero-01.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1125,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/32953050/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/cafe/cafe-hero-02.jpg",
+     "bestand": "cafe/cafe-hero-02.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1333,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/34104248/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/cafe/cafe-hero-03.jpg",
+     "bestand": "cafe/cafe-hero-03.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1335,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/18721982/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/cafe/cafe-hero-04.jpg",
+     "bestand": "cafe/cafe-hero-04.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1333,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/14356408/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/cafe/cafe-hero-05.jpg",
+     "bestand": "cafe/cafe-hero-05.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1521,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/15235096/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/cafe/cafe-01.jpg",
+     "bestand": "cafe/cafe-01.jpg",
+     "hero": false,
+     "breedte": 933,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/20825644/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/cafe/cafe-02.jpg",
+     "bestand": "cafe/cafe-02.jpg",
+     "hero": false,
+     "breedte": 933,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/2079448/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/cafe/cafe-03.jpg",
+     "bestand": "cafe/cafe-03.jpg",
+     "hero": false,
+     "breedte": 933,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/20418285/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/cafe/cafe-04.jpg",
+     "bestand": "cafe/cafe-04.jpg",
+     "hero": false,
+     "breedte": 933,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/18832554/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/cafe/cafe-05.jpg",
+     "bestand": "cafe/cafe-05.jpg",
+     "hero": false,
+     "breedte": 933,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/10818336/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/cafe/cafe-06.jpg",
+     "bestand": "cafe/cafe-06.jpg",
+     "hero": false,
+     "breedte": 933,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/33287155/"
+    }
+   ]
+  },
+  "whisky": {
+   "naam": "Drankenwinkel",
+   "fotos": [
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/whisky/whisky-hero-01.jpg",
+     "bestand": "whisky/whisky-hero-01.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1333,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/36322544/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/whisky/whisky-hero-02.jpg",
+     "bestand": "whisky/whisky-hero-02.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1333,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/7599324/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/whisky/whisky-hero-03.jpg",
+     "bestand": "whisky/whisky-hero-03.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1333,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/4667079/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/whisky/whisky-hero-04.jpg",
+     "bestand": "whisky/whisky-hero-04.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1676,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/13059665/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/whisky/whisky-hero-05.jpg",
+     "bestand": "whisky/whisky-hero-05.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1500,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/32569030/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/whisky/whisky-01.jpg",
+     "bestand": "whisky/whisky-01.jpg",
+     "hero": false,
+     "breedte": 1120,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/19539063/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/whisky/whisky-02.jpg",
+     "bestand": "whisky/whisky-02.jpg",
+     "hero": false,
+     "breedte": 933,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/36322545/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/whisky/whisky-03.jpg",
+     "bestand": "whisky/whisky-03.jpg",
+     "hero": false,
+     "breedte": 1120,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/7799797/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/whisky/whisky-04.jpg",
+     "bestand": "whisky/whisky-04.jpg",
+     "hero": false,
+     "breedte": 933,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/12741759/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/whisky/whisky-05.jpg",
+     "bestand": "whisky/whisky-05.jpg",
+     "hero": false,
+     "breedte": 1400,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/17419474/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/whisky/whisky-06.jpg",
+     "bestand": "whisky/whisky-06.jpg",
+     "hero": false,
+     "breedte": 933,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/7254864/"
+    }
+   ]
+  },
+  "bloemist": {
+   "naam": "Bloemist",
+   "fotos": [
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/bloemist/bloemist-hero-01.jpg",
+     "bestand": "bloemist/bloemist-hero-01.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1333,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/947914/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/bloemist/bloemist-hero-02.jpg",
+     "bestand": "bloemist/bloemist-hero-02.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1333,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/31497181/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/bloemist/bloemist-hero-03.jpg",
+     "bestand": "bloemist/bloemist-hero-03.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1432,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/36739287/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/bloemist/bloemist-hero-04.jpg",
+     "bestand": "bloemist/bloemist-hero-04.jpg",
+     "hero": true,
+     "breedte": 2000,
+     "hoogte": 1333,
+     "ligging": "liggend",
+     "bron": "https://www.pexels.com/photo/7311450/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/bloemist/bloemist-01.jpg",
+     "bestand": "bloemist/bloemist-01.jpg",
+     "hero": false,
+     "breedte": 933,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/25945747/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/bloemist/bloemist-02.jpg",
+     "bestand": "bloemist/bloemist-02.jpg",
+     "hero": false,
+     "breedte": 1050,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/31204554/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/bloemist/bloemist-03.jpg",
+     "bestand": "bloemist/bloemist-03.jpg",
+     "hero": false,
+     "breedte": 933,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/21352856/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/bloemist/bloemist-04.jpg",
+     "bestand": "bloemist/bloemist-04.jpg",
+     "hero": false,
+     "breedte": 933,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/10219958/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/bloemist/bloemist-05.jpg",
+     "bestand": "bloemist/bloemist-05.jpg",
+     "hero": false,
+     "breedte": 933,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/5410135/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/bloemist/bloemist-06.jpg",
+     "bestand": "bloemist/bloemist-06.jpg",
+     "hero": false,
+     "breedte": 933,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/36945270/"
+    },
+    {
+     "url": "https://digitalevoorgevel.github.io/digitalevoorgevel/fotobank/bloemist/bloemist-07.jpg",
+     "bestand": "bloemist/bloemist-07.jpg",
+     "hero": false,
+     "breedte": 1052,
+     "hoogte": 1400,
+     "ligging": "staand",
+     "bron": "https://www.pexels.com/photo/20295105/"
+    }
+   ]
+  }
+ }
+}
